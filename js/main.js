@@ -34,7 +34,6 @@ $(function () {
         e.preventDefault();
         $.ajax({
             url: "logos.html",
-            cache:false,
             success: function (data) {
                 $("body").html(data)
 
@@ -47,7 +46,6 @@ $(function () {
         e.preventDefault();
         $.ajax({
             url: "index.html",
-            cache:false,
             success: function (data) {
                 $("body").html(data)
 
